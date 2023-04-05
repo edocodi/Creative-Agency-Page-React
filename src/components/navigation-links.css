@@ -11,6 +11,15 @@
 .navigation-links-text:hover {
   color: var(--dl-color-scheme-brown);
 }
+.navigation-links-navlink {
+  cursor: pointer;
+  transition: 0.3s;
+  margin-left: 41px;
+  text-decoration: none;
+}
+.navigation-links-navlink:hover {
+  color: var(--dl-color-scheme-brown);
+}
 .navigation-links-text1 {
   cursor: pointer;
   transition: 0.3s;
@@ -25,14 +34,6 @@
   margin-left: 41px;
 }
 .navigation-links-text2:hover {
-  color: var(--dl-color-scheme-brown);
-}
-.navigation-links-text3 {
-  cursor: pointer;
-  transition: 0.3s;
-  margin-left: 41px;
-}
-.navigation-links-text3:hover {
   color: var(--dl-color-scheme-brown);
 }
 
@@ -54,15 +55,15 @@
   .navigation-links-text {
     margin-bottom: var(--dl-space-space-unit);
   }
+  .navigation-links-navlink {
+    margin-left: 0;
+    margin-bottom: var(--dl-space-space-unit);
+  }
   .navigation-links-text1 {
     margin-left: 0;
     margin-bottom: var(--dl-space-space-unit);
   }
   .navigation-links-text2 {
-    margin-left: 0;
-    margin-bottom: var(--dl-space-space-unit);
-  }
-  .navigation-links-text3 {
     margin-left: 0;
     margin-bottom: var(--dl-space-space-unit);
   }

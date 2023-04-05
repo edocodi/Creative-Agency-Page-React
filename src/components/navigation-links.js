@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 import PropTypes from 'prop-types'
 
@@ -10,13 +11,13 @@ const NavigationLinks = (props) => {
       <span className="navigation-links-text Navigation-Link">
         {props.link1}
       </span>
-      <span className="navigation-links-text1 Navigation-Link">
+      <Link to="/about" className="navigation-links-navlink Navigation-Link">
         {props.link2}
-      </span>
-      <span className="navigation-links-text2 Navigation-Link">
+      </Link>
+      <span className="navigation-links-text1 Navigation-Link">
         {props.link3}
       </span>
-      <span className="navigation-links-text3 Navigation-Link">
+      <span className="navigation-links-text2 Navigation-Link">
         {props.link4}
       </span>
     </nav>
